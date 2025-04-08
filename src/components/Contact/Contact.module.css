@@ -1,0 +1,26 @@
+/* Contact.module.css */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.item button {
+  padding: 6px 10px;
+  font-size: 0.875rem;
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.item button:hover {
+  background-color: #ff5252;
+}
