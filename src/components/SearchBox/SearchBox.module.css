@@ -1,21 +1,11 @@
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.searchBox {
+  margin-bottom: 20px;
 }
 
-.wrapper label {
-  font-size: 1rem;
-  color: #333;
-  margin-bottom: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.wrapper label input {
-  padding: 8px;
-  font-size: 1rem;
+.searchBox input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
   border: 1px solid #ccc;
-  border-radius: 4px;
 }
